@@ -1,7 +1,7 @@
 .feedbackWrapper {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   margin-bottom: 60px;
 }
 
