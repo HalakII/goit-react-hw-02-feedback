@@ -2,21 +2,22 @@
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .feedbackButton {
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 600;
   cursor: pointer;
   width: 150px;
   height: 40px;
   border-radius: 15px;
-  background-color: azure;
+  background-color: rgb(230, 236, 34);
+  border-color: transparent;
   transition: scale 500ms;
-  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
-    -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
-    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 2px -2px 3px 0 rgb(0, 87, 187), -2px -2px 3px 0 rgb(0, 87, 187),
+    2px 2px 3px 0 rgb(0, 87, 187), -2px 2px 3px 0 rgb(0, 87, 187);
 }
 
 .feedbackButton:hover {
