@@ -1,0 +1,18 @@
+.wrapper {
+  background-image: linear-gradient(rgb(141, 197, 240), rgb(230, 236, 34));
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  border: 3px solid black;
+  margin: 150px auto 0 auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+/* 
+.icon_good {
+  padding-bottom: 5px;
+}
+
+.icon_bad {
+  padding-bottom: 3px;
+} */
