@@ -1,7 +1,6 @@
 .listWrapper {
   list-style: none;
   display: flex;
-
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -10,32 +9,31 @@
   flex: 1 0 calc(33.33% - 10px);
   margin: 5px;
   padding: 7px 20px;
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-radius: 5px;
-  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
-    -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
-    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
-  font-size: 24px;
+  box-shadow: 2px -2px 5px 0 #7ba5f4, -2px -2px 5px 0 #7ba5f4,
+    2px 2px 5px 0 #7ba5f4, -2px 2px 5px 0 #7ba5f4;
+  font-size: 20px;
   font-weight: 600;
 }
 .listItem:nth-child(odd) {
-  border-left: 10px solid rgb(0, 87, 187);
+  border-left: 10px solid #7ba5f4;
 }
 .listItem:nth-child(even) {
-  border-right: 10px solid rgb(0, 87, 187);
+  border-right: 10px solid #7ba5f4;
 }
 .listItem:last-child {
-  background-color: rgb(0, 87, 187);
-  color: white;
+  background-color: #7ba5f4;
+  color: black;
   border-color: transparent;
 }
 .icon {
   font-size: 35px;
   margin-right: 8px;
   vertical-align: middle;
-  color: rgb(0, 87, 187);
+  color: #3777ef;
 }
 .iconLast {
-  color: white;
+  color: #fffec3;
   composes: icon;
 }

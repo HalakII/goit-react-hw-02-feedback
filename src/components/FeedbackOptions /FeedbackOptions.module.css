@@ -7,23 +7,24 @@
 
 .feedbackButton {
   text-transform: capitalize;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   cursor: pointer;
   width: 150px;
   height: 40px;
   border-radius: 15px;
-  background-color: rgb(230, 236, 34);
+  background-color: #7ba5f4;
   border-color: transparent;
   transition: scale 500ms;
-  box-shadow: 2px -2px 3px 0 rgb(0, 87, 187), -2px -2px 3px 0 rgb(0, 87, 187),
-    2px 2px 3px 0 rgb(0, 87, 187), -2px 2px 3px 0 rgb(0, 87, 187);
+  box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
 }
 
 .feedbackButton:hover {
-  border: 2px solid rgb(0, 87, 187);
-  color: white;
-  background-color: rgb(0, 87, 187);
+  border: 2px solid #3777ef;
+  color: #fffec3;
+  background-color: #3777ef;
   scale: 1.05;
 }
 
